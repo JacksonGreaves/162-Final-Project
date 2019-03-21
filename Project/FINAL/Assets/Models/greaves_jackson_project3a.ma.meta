@@ -256,13 +256,59 @@ ModelImporter:
     4300086: bow_mast
     4300088: rear_mast
     4300090: center_mast
+    6400000: back_beam
+    6400002: back_sail
+    6400004: bow_beam
+    6400006: bow_mast
+    6400008: bow_sail
+    6400010: center_beam_1
+    6400012: center_beam_2
+    6400014: center_mast
+    6400016: center_sail_1
+    6400018: center_sail_2
+    6400020: front_beam
+    6400022: front_mast
+    6400024: front_sail
+    6400026: hull
+    6400028: left_cannon_1
+    6400030: left_cannon_2
+    6400032: left_cannon_3
+    6400034: left_cannon_4
+    6400036: left_cannon_5
+    6400038: left_cannon_6
+    6400040: left_cannon_7
+    6400042: left_flap_1
+    6400044: left_flap_2
+    6400046: left_flap_3
+    6400048: left_flap_4
+    6400050: left_flap_5
+    6400052: left_flap_6
+    6400054: left_flap_7
+    6400056: rear_mast
+    6400058: right_cannon_1
+    6400060: right_cannon_2
+    6400062: right_cannon_3
+    6400064: right_cannon_4
+    6400066: right_cannon_5
+    6400068: right_cannon_6
+    6400070: right_cannon_7
+    6400072: right_flap_1
+    6400074: right_flap_2
+    6400076: right_flap_3
+    6400078: right_flap_4
+    6400080: right_flap_5
+    6400082: right_flap_6
+    6400084: right_flap_7
+    6400086: rudder
+    6400088: wheel
+    6400090: wheel_holder
     9500000: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -288,14 +334,14 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1

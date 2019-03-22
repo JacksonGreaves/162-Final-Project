@@ -10,6 +10,7 @@ public class ShipController : MonoBehaviour
     public GameObject[] l_cannons;
     public GameObject[] r_cannons;
     public GameObject bullet;
+    public Transform wheel;
 
     private CharacterController controller;
     private float moveX;
@@ -23,6 +24,7 @@ public class ShipController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        wheel.Rotate(0, 0, Input.GetAxis("Horizontal") * rotateSpeed);
         transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         float curSpeed = speed * Input.GetAxis("Vertical");

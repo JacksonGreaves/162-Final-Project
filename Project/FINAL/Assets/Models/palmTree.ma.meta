@@ -78,6 +78,19 @@ ModelImporter:
     100144: transform7
     100146: transform8
     100148: transform9
+    100150: bulb
+    100152: leaf
+    100154: leaf1
+    100156: leaf2
+    100158: leaf3
+    100160: leaf4
+    100162: leaf5
+    100164: leaf6
+    100166: leaf7
+    100168: leaf8
+    100170: leaf9
+    100172: leaves
+    100174: trunk
     400000: //RootNode
     400002: pCube1
     400004: pCube10
@@ -153,6 +166,19 @@ ModelImporter:
     400144: transform7
     400146: transform8
     400148: transform9
+    400150: bulb
+    400152: leaf
+    400154: leaf1
+    400156: leaf2
+    400158: leaf3
+    400160: leaf4
+    400162: leaf5
+    400164: leaf6
+    400166: leaf7
+    400168: leaf8
+    400170: leaf9
+    400172: leaves
+    400174: trunk
     2100000: lambert1
     2300000: pCube32
     2300002: pCube33
@@ -166,6 +192,18 @@ ModelImporter:
     2300018: pCube41
     2300020: pCylinder1
     2300022: pSphere1
+    2300024: bulb
+    2300026: leaf
+    2300028: leaf1
+    2300030: leaf2
+    2300032: leaf3
+    2300034: leaf4
+    2300036: leaf5
+    2300038: leaf6
+    2300040: leaf7
+    2300042: leaf8
+    2300044: leaf9
+    2300046: trunk
     3300000: pCube32
     3300002: pCube33
     3300004: pCube34
@@ -178,6 +216,18 @@ ModelImporter:
     3300018: pCube41
     3300020: pCylinder1
     3300022: pSphere1
+    3300024: bulb
+    3300026: leaf
+    3300028: leaf1
+    3300030: leaf2
+    3300032: leaf3
+    3300034: leaf4
+    3300036: leaf5
+    3300038: leaf6
+    3300040: leaf7
+    3300042: leaf8
+    3300044: leaf9
+    3300046: trunk
     4300000: pCylinder1
     4300002: pCube32
     4300004: pSphere1
@@ -190,6 +240,42 @@ ModelImporter:
     4300018: pCube39
     4300020: pCube40
     4300022: pCube41
+    4300024: trunk
+    4300026: bulb
+    4300028: leaf
+    4300030: leaf1
+    4300032: leaf2
+    4300034: leaf3
+    4300036: leaf4
+    4300038: leaf5
+    4300040: leaf6
+    4300042: leaf7
+    4300044: leaf8
+    4300046: leaf9
+    6400000: pCube32
+    6400002: pCube33
+    6400004: pCube34
+    6400006: pCube35
+    6400008: pCube36
+    6400010: pCube37
+    6400012: pCube38
+    6400014: pCube39
+    6400016: pCube40
+    6400018: pCube41
+    6400020: pCylinder1
+    6400022: pSphere1
+    6400024: bulb
+    6400026: leaf
+    6400028: leaf1
+    6400030: leaf2
+    6400032: leaf3
+    6400034: leaf4
+    6400036: leaf5
+    6400038: leaf6
+    6400040: leaf7
+    6400042: leaf8
+    6400044: leaf9
+    6400046: trunk
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -223,11 +309,11 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
+    importCameras: 0
     importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
